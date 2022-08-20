@@ -6,6 +6,7 @@ class Boton extends StatelessWidget {
   final double ancho;
   final double alto;
   final Color color;
+  final bool ok;
 
   const Boton(
       {Key? key,
@@ -13,7 +14,8 @@ class Boton extends StatelessWidget {
       required this.screen,
       required this.ancho,
       required this.alto,
-      required this.color})
+      required this.color,
+      this.ok = false})
       : super(key: key);
 
   @override
@@ -32,15 +34,17 @@ class Boton extends StatelessWidget {
           ],
         ),
         style: ElevatedButton.styleFrom(
-          primary: color,
+          primary: ok ? color : Colors.grey,
           minimumSize: Size(ancho, alto),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5),
           ),
         ),
         onPressed: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => screen));
+          ok
+              ? Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => screen))
+              : null;
         },
       ),
     );

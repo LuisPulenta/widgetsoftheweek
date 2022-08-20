@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/S/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class SScreen extends StatelessWidget {
@@ -22,10 +23,11 @@ class SScreen extends StatelessWidget {
             children: [
               Boton(
                   titulo: "SafeArea",
-                  screen: Container(),
+                  screen: SafeAreaScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "ScaffoldMessenger",
                   screen: Container(),
@@ -58,7 +60,7 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "Safe Area",
-                  screen: Container(),
+                  screen: SafeAreaScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
                   color: color),

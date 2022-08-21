@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/TUVW/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class TUVWScreen extends StatelessWidget {
@@ -45,11 +46,13 @@ class TUVWScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "Tooltip",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Tooltip",
+                screen: TooltipScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Transform",
                   screen: Container(),
@@ -90,11 +93,13 @@ class TUVWScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "Wrap",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Wrap",
+                screen: WrapScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
             ],
           ),
         ));

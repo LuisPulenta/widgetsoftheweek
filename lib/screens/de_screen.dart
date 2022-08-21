@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/DE/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class DEScreen extends StatelessWidget {
@@ -80,11 +81,13 @@ class DEScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "Expanded",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Expanded",
+                screen: const ExpandedScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "ExpansionPanel",
                   screen: Container(),

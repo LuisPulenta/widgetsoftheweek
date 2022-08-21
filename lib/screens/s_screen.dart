@@ -23,7 +23,7 @@ class SScreen extends StatelessWidget {
             children: [
               Boton(
                   titulo: "SafeArea",
-                  screen: SafeAreaScreen(),
+                  screen: const SafeAreaScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
                   color: color,
@@ -60,7 +60,7 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "Safe Area",
-                  screen: SafeAreaScreen(),
+                  screen: const SafeAreaScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
                   color: color),

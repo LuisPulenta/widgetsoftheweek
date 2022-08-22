@@ -7,7 +7,7 @@ class TooltipScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TooltipScreen'),
+        title: const Text('Tooltip'),
         centerTitle: true,
       ),
       body: const Center(

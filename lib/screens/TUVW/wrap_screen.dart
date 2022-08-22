@@ -15,7 +15,7 @@ class WrapScreen extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-          const Text("Cuadrados conespacio insuficiente"),
+          const Text("Cuadrados con espacio insuficiente"),
           Row(
             children: const [
               Rectangulo(Colors.blue),

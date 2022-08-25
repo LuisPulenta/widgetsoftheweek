@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/LMNO/opacity_screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class LMNOScreen extends StatelessWidget {
@@ -108,11 +109,13 @@ class LMNOScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "Opacity y AnimatedOpacity",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Opacity y AnimatedOpacity",
+                screen: const OpacityScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
             ],
           ),
         ));

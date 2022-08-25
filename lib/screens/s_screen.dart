@@ -96,7 +96,7 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                 titulo: "SizedBox",
-                screen: SizedBoxScreen(),
+                screen: const SizedBoxScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
@@ -116,7 +116,7 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                 titulo: "Spacer",
-                screen: SpacerScreen(),
+                screen: const SpacerScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,

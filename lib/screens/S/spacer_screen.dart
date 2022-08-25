@@ -8,53 +8,53 @@ class SpacerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Spacer'),
+          title: const Text('Spacer'),
           centerTitle: true,
         ),
         body: Column(
           children: [
-            Text("spaceAround"),
+            const Text("spaceAround"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
+                children: const [
                   Rectangulo(),
                   Rectangulo(),
                   Rectangulo(),
                 ],
               ),
             ),
-            Text("spaceBetween"),
+            const Text("spaceBetween"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
+                children: const [
                   Rectangulo(),
                   Rectangulo(),
                   Rectangulo(),
                 ],
               ),
             ),
-            Text("spaceEvenly"),
+            const Text("spaceEvenly"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Rectangulo(),
                   Rectangulo(),
                   Rectangulo(),
                 ],
               ),
             ),
-            Text("Un Spacer"),
+            const Text("Un Spacer"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Rectangulo(),
                   Spacer(),
                   Rectangulo(),
@@ -62,12 +62,12 @@ class SpacerScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Text("Dos Spacer"),
+            const Text("Dos Spacer"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Rectangulo(),
                   Spacer(),
                   Rectangulo(),
@@ -76,12 +76,12 @@ class SpacerScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Text("Dos Spacer con flex"),
+            const Text("Dos Spacer con flex"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Rectangulo(),
                   Spacer(
                     flex: 1,
@@ -92,12 +92,12 @@ class SpacerScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Text("Tres Spacer con flex"),
+            const Text("Tres Spacer con flex"),
             Padding(
-              padding: EdgeInsets.all(5),
+              padding: const EdgeInsets.all(5),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Rectangulo(),
                   Spacer(
                     flex: 1,

@@ -7,7 +7,7 @@ class WrapScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wrap'),
+        title: const Text('Wrap'),
         centerTitle: true,
       ),
       body: Column(

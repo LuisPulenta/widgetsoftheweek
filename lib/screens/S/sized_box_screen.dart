@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_const
+
 import 'package:flutter/material.dart';
 
 class SizedBoxScreen extends StatelessWidget {
@@ -11,8 +13,8 @@ class SizedBoxScreen extends StatelessWidget {
           centerTitle: true,
         ),
         body: Column(
-          children: [
-            const SizedBox(
+          children: const [
+            SizedBox(
               height: 10,
             ),
             SizedBox(
@@ -20,7 +22,7 @@ class SizedBoxScreen extends StatelessWidget {
               height: 50,
               child: Rectangulo(),
             ),
-            const SizedBox(
+            SizedBox(
               height: 10,
             ),
             SizedBox(
@@ -28,7 +30,7 @@ class SizedBoxScreen extends StatelessWidget {
               height: 50,
               child: Rectangulo(),
             ),
-            const SizedBox(
+            SizedBox(
               height: 150,
             ),
             SizedBox(
@@ -42,6 +44,8 @@ class SizedBoxScreen extends StatelessWidget {
 }
 
 class Rectangulo extends StatelessWidget {
+  const Rectangulo({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(

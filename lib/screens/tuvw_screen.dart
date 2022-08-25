@@ -47,7 +47,7 @@ class TUVWScreen extends StatelessWidget {
                   color: color),
               Boton(
                 titulo: "Tooltip",
-                screen: TooltipScreen(),
+                screen: const TooltipScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
@@ -94,7 +94,7 @@ class TUVWScreen extends StatelessWidget {
               ),
               Boton(
                 titulo: "Wrap",
-                screen: WrapScreen(),
+                screen: const WrapScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,

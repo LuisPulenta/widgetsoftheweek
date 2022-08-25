@@ -28,7 +28,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
       ),
       body: Center(
         child: AnimatedContainer(
-          duration: Duration(milliseconds: 500),
+          duration: const Duration(milliseconds: 500),
           curve: Curves.easeInOut,
           width: _width,
           height: _height,
@@ -40,7 +40,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.play_arrow, size: 40),
+          child: const Icon(Icons.play_arrow, size: 40),
           onPressed: () {
             final random = Random();
             _width = random.nextInt(300).toDouble() + 70;

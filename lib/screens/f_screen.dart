@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/F/fade_in_image_screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class FScreen extends StatelessWidget {
@@ -21,11 +22,13 @@ class FScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "FadeInImage",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "FadeInImage",
+                screen: const FadeInImageScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "FadeTransition",
                   screen: Container(),

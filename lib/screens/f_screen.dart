@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsoftheweek/screens/F/fade_in_image_screen.dart';
+import 'package:widgetsoftheweek/screens/F/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class FScreen extends StatelessWidget {
@@ -42,11 +42,13 @@ class FScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "FittedBox",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "FittedBox",
+                screen: const FittedBoxScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Flexible",
                   screen: Container(),
@@ -54,11 +56,13 @@ class FScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "Floating Action Button",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Floating Action Button",
+                screen: const FloatingActionButtonScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Flow",
                   screen: Container(),

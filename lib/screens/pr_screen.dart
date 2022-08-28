@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/PR/pageview_screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class PRScreen extends StatelessWidget {
@@ -39,11 +40,13 @@ class PRScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "PageView",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "PageView",
+                screen: PageviewScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "path_provider",
                   screen: Container(),

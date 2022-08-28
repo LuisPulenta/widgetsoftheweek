@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/BC/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class BCScreen extends StatelessWidget {
@@ -98,11 +99,13 @@ class BCScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "Container",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Container",
+                screen: const ContainerScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "CupertinoActionSheets",
                   screen: Container(),

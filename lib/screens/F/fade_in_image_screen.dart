@@ -14,7 +14,7 @@ class FadeInImageScreen extends StatelessWidget {
         child: FadeInImage.assetNetwork(
           height: 300,
           width: 300,
-          fadeInDuration: Duration(milliseconds: 5000),
+          fadeInDuration: const Duration(milliseconds: 5000),
           fadeInCurve: Curves.bounceInOut,
           placeholder: 'assets/loading.gif',
           image:

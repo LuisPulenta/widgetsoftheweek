@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgetsoftheweek/screens/PR/pageview_screen.dart';
+import 'package:widgetsoftheweek/screens/PR/positioned_screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class PRScreen extends StatelessWidget {
@@ -67,10 +68,11 @@ class PRScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "Positioned",
-                  screen: Container(),
+                  screen: PositionedScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

@@ -22,6 +22,12 @@ class _FadeTransitionScreenState extends State<FadeTransitionScreen>
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

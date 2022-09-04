@@ -50,11 +50,13 @@ class FScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Flexible",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Flexible",
+                screen: FlexibleScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Floating Action Button",
                 screen: const FloatingActionButtonScreen(),

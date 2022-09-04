@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/GHI/hero_screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class GHIScreen extends StatelessWidget {
@@ -50,11 +51,13 @@ class GHIScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "Hero",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Hero",
+                screen: HeroScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "HeroMode",
                   screen: Container(),

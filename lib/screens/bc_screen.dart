@@ -70,7 +70,7 @@ class BCScreen extends StatelessWidget {
                   color: color),
               Boton(
                 titulo: "ClipRRect",
-                screen: ClipRRectScreen(),
+                screen: const ClipRRectScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
@@ -122,10 +122,11 @@ class BCScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "CustomPainter",
-                  screen: Container(),
+                  screen: const CustomPainterScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
             ],
           ),
         ));

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgetsoftheweek/screens/LMNO/opacity_screen.dart';
+import 'package:widgetsoftheweek/screens/LMNO/screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class LMNOScreen extends StatelessWidget {
@@ -76,10 +77,11 @@ class LMNOScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "MediaQuery",
-                  screen: Container(),
+                  screen: const MediaQueryScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "MouseRegion",
                   screen: Container(),

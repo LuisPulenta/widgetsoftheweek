@@ -31,10 +31,11 @@ class FScreen extends StatelessWidget {
               ),
               Boton(
                   titulo: "FadeTransition",
-                  screen: Container(),
+                  screen: const FadeTransitionScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "Feezed",
                   screen: Container(),
@@ -51,7 +52,7 @@ class FScreen extends StatelessWidget {
               ),
               Boton(
                 titulo: "Flexible",
-                screen: FlexibleScreen(),
+                screen: const FlexibleScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,

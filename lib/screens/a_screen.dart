@@ -86,11 +86,13 @@ class AScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "AnimatedOpacity",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AnimatedOpacity",
+                screen: const AnimatedOpacityScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "AnimatedPadding",
                   screen: Container(),

@@ -54,11 +54,13 @@ class TUVWScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Transform",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Transform",
+                screen: const TransformScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "TweenAnimationBuilder",
                   screen: Container(),

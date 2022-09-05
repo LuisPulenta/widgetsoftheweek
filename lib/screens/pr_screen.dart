@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgetsoftheweek/screens/PR/pageview_screen.dart';
 import 'package:widgetsoftheweek/screens/PR/positioned_screen.dart';
+import 'package:widgetsoftheweek/screens/PR/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class PRScreen extends StatelessWidget {
@@ -61,14 +62,16 @@ class PRScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "Placeholder",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Placeholder",
+                screen: const PlaceholderScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Positioned",
-                  screen: PositionedScreen(),
+                  screen: const PositionedScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
                   color: color,

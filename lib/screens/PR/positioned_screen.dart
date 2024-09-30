@@ -80,9 +80,9 @@ class PositionedScreen extends StatelessWidget {
               child: Stack(
                 children: const [
                   Positioned(
-                    right: 60,
+                    right: 50,
                     bottom: 40,
-                    child: Text("right:60 - bottom:40"),
+                    child: Text("right:50 - bottom:40"),
                   ),
                 ],
               ),

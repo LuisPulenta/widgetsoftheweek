@@ -17,14 +17,17 @@ class FloatingActionButtonScreen extends StatelessWidget {
         child: const Icon(Icons.add),
         splashColor: Colors.purple,
         hoverColor: Colors.orange,
+        elevation: 0,
+        highlightElevation: 0,
         onPressed: () {},
       ),
-      bottomNavigationBar: BottomAppBar(
-          color: Colors.cyan,
-          shape: const CircularNotchedRectangle(),
-          child: Container(
-            height: 50,
-          )),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Inicio"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Usuario"),
+        ],
+        backgroundColor: Colors.cyan,
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }

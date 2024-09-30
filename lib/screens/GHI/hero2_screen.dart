@@ -6,7 +6,10 @@ class Hero2Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Hero Detalle')),
+      appBar: AppBar(
+        title: const Text('Hero Detalle'),
+        centerTitle: true,
+      ),
       body: Column(
         children: const [
           Hero(

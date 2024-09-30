@@ -5,7 +5,7 @@ import 'package:widgetsoftheweek/screens/F/floating_action_button_screen.dart';
 
 class PageviewScreen extends StatelessWidget {
   PageviewScreen({Key? key}) : super(key: key);
-  final controller = PageController(initialPage: 1);
+  final controller = PageController(initialPage: 1, viewportFraction: 0.9);
   @override
   Widget build(BuildContext context) {
     return Scaffold(

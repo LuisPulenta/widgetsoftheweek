@@ -14,7 +14,6 @@ class StackScreen extends StatelessWidget {
         child: Stack(
           fit: StackFit.loose,
           alignment: AlignmentDirectional.bottomCenter,
-          overflow: Overflow.clip,
           children: [
             CuadradoConColor(lado: 300, color: Colors.yellow),
             CuadradoConColor(lado: 250, color: Colors.orange),

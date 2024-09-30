@@ -18,6 +18,13 @@ class WrapScreen extends StatelessWidget {
           const Text("Cuadrados con espacio insuficiente"),
           Row(
             children: const [
+              Chip(
+                label: Text(
+                  "Talleres",
+                  style: TextStyle(color: Colors.white),
+                ),
+                backgroundColor: Colors.blue,
+              ),
               Rectangulo(Colors.blue),
               Rectangulo(Colors.blue),
               Rectangulo(Colors.blue),
@@ -33,11 +40,48 @@ class WrapScreen extends StatelessWidget {
           const Text("Cuadrados en un wrap"),
           Expanded(
             child: Wrap(
-              direction: Axis.vertical,
+              direction: Axis.horizontal,
               alignment: WrapAlignment.center,
-              spacing: 40,
+              spacing: 60,
               runSpacing: 20,
               children: const [
+                Chip(
+                  avatar: CircleAvatar(
+                    child: Text(
+                      "T",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 6, 17, 165),
+                          fontWeight: FontWeight.bold),
+                    ),
+                    backgroundColor: Colors.white,
+                  ),
+                  label: Text(
+                    "Talleres",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 6, 17, 165),
+                ),
+                Chip(
+                  label: Text(
+                    "Belgrano",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 62, 149, 220),
+                ),
+                Chip(
+                  label: Text(
+                    "River",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  backgroundColor: Colors.red,
+                ),
+                Chip(
+                  label: Text(
+                    "Boca",
+                    style: TextStyle(color: Colors.yellow),
+                  ),
+                  backgroundColor: Color.fromARGB(255, 13, 25, 163),
+                ),
                 Rectangulo(Colors.orange),
                 Rectangulo(Colors.orange),
                 Rectangulo(Colors.orange),

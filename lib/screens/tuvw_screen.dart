@@ -22,11 +22,13 @@ class TUVWScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "Table",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Table",
+                screen: const TableScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "TabPageSelector",
                   screen: Container(),

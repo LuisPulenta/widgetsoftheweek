@@ -13,9 +13,10 @@ class TooltipScreen extends StatelessWidget {
       body: const Center(
         child: Tooltip(
           message: "Configuración",
-          verticalOffset: 50,
-          decoration: BoxDecoration(color: Colors.amber),
-          height: 60,
+          preferBelow: true,
+          verticalOffset: -120,
+          decoration: BoxDecoration(color: Colors.cyan),
+          height: 40,
           child: Icon(
             Icons.settings,
             size: 100,

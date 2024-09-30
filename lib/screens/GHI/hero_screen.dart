@@ -24,14 +24,12 @@ class HeroScreen extends StatelessWidget {
               fallbackHeight: 150,
             ),
           ]),
-          const TableRow(children: [
-            Placeholder(
+          TableRow(children: [
+            const Placeholder(
               fallbackHeight: 150,
             ),
-            Placeholder(
-              fallbackHeight: 150,
-            ),
-            Placeholder(
+            Container(),
+            const Placeholder(
               fallbackHeight: 150,
             ),
           ]),
@@ -66,6 +64,7 @@ class HeroScreen extends StatelessWidget {
     );
   }
 
+  //-----------------------------------------------------------------------------
   void pushRoute(BuildContext context) {
     Navigator.push(
       context,

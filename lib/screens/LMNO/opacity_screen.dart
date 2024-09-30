@@ -16,6 +16,7 @@ class _OpacityScreenState extends State<OpacityScreen> {
           title: const Text('Opacity'),
           centerTitle: true,
         ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [

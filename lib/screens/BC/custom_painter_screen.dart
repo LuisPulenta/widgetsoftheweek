@@ -32,6 +32,7 @@ class MyPainter extends CustomPainter {
     final lapiz = Paint();
     //Propiedades del lápiz
     lapiz.color = Colors.red;
+    lapiz.strokeCap = StrokeCap.round;
     lapiz.style = PaintingStyle.fill;
     lapiz.strokeWidth = 5.0; //ancho del lápiz
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgetsoftheweek/screens/GHI/hero_screen.dart';
+import 'package:widgetsoftheweek/screens/GHI/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
 class GHIScreen extends StatelessWidget {
@@ -82,11 +83,13 @@ class GHIScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "ImageFilter",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "ImageFilter",
+                screen: const ImageFilterScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "ImageFiltered",
                   screen: Container(),

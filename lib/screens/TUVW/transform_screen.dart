@@ -210,6 +210,14 @@ class RectAzul extends StatelessWidget {
       width: 70,
       height: 70,
       decoration: const BoxDecoration(color: Colors.blue),
+      child: const Align(
+        alignment: Alignment.center,
+        child: Text("T",
+            style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+                fontWeight: FontWeight.bold)),
+      ),
     );
   }
 }

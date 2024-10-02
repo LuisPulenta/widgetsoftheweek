@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheweek/screens/A/animated_builder_screen.dart';
 import 'package:widgetsoftheweek/screens/A/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
@@ -48,11 +49,13 @@ class AScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Animated Builder",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Animated Builder",
+                screen: const AnimatedBuilderScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Animated Container",
                 screen: const AnimatedContainerScreen(),

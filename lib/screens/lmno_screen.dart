@@ -23,11 +23,13 @@ class LMNOScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "LayoutBuilder",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "LayoutBuilder",
+                screen: const LayoutBuilderScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "LimitedBox",
                   screen: Container(),

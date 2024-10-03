@@ -29,11 +29,13 @@ class AScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "AbsorbPointer",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AbsorbPointer",
+                screen: const AbsorbPointerScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "AlertDialog",
                   screen: Container(),

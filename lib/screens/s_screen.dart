@@ -153,10 +153,11 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "StreamBuilder",
-                  screen: Container(),
+                  screen: const StreamBuilderScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "SwitchListTile",
                   screen: Container(),

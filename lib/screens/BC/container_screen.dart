@@ -45,9 +45,17 @@ class ContainerScreen extends StatelessWidget {
                 ),
                 Container(
                     color: Colors.cyanAccent,
-                    padding: const EdgeInsets.all(10),
                     margin: const EdgeInsets.all(10),
                     child: const Text("Texto con Container con margin")),
+                const SizedBox(
+                  height: 5,
+                ),
+                Container(
+                    color: Colors.amber,
+                    padding: const EdgeInsets.all(10),
+                    margin: const EdgeInsets.all(10),
+                    child:
+                        const Text("Texto con Container con padding y margin")),
                 const SizedBox(
                   height: 5,
                 ),

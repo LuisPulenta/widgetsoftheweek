@@ -14,7 +14,7 @@ class StackScreen extends StatelessWidget {
         child: Stack(
           fit: StackFit.loose,
           alignment: AlignmentDirectional.bottomCenter,
-          children: [
+          children: const [
             CuadradoConColor(lado: 300, color: Colors.yellow),
             CuadradoConColor(lado: 250, color: Colors.orange),
             CuadradoConColor(lado: 200, color: Colors.green),
@@ -37,7 +37,7 @@ class CuadradoConColor extends StatelessWidget {
   final double lado;
   final Color color;
 
-  CuadradoConColor({required this.lado, required this.color});
+  const CuadradoConColor({super.key, required this.lado, required this.color});
 
   @override
   Widget build(BuildContext context) {

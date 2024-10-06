@@ -53,7 +53,6 @@ class SpacerScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(5),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const [
                   Rectangulo(),
                   Spacer(),
@@ -66,7 +65,6 @@ class SpacerScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(5),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const [
                   Rectangulo(),
                   Spacer(),
@@ -80,7 +78,6 @@ class SpacerScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(5),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const [
                   Rectangulo(),
                   Spacer(
@@ -96,7 +93,6 @@ class SpacerScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(5),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const [
                   Rectangulo(),
                   Spacer(

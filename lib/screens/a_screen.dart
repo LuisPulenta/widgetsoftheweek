@@ -37,11 +37,13 @@ class AScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "AlertDialog",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AlertDialog",
+                screen: const AlertDialogScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Align",
                 screen: const AlignScreen(),

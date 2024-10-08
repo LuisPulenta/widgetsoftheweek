@@ -22,11 +22,13 @@ class DEScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "DataTable",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "DataTable",
+                screen: const DataTableScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "DefaultTabController & TabBar",
                   screen: Container(),

@@ -31,11 +31,13 @@ class LMNOScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "LimitedBox",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "LimitedBox",
+                screen: const LimitedBoxScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "LinearGradient",
                   screen: Container(),

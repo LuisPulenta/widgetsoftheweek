@@ -29,12 +29,12 @@ class Boton extends StatelessWidget {
             Text(titulo,
                 style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold)),
           ],
         ),
         style: ElevatedButton.styleFrom(
-          primary: ok ? color : Colors.grey,
+          backgroundColor: ok ? color : Colors.grey,
           minimumSize: Size(ancho, alto),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5),

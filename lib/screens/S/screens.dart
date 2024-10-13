@@ -7,3 +7,5 @@ export 'package:widgetsoftheweek/screens/S/sliver_grid_list_screen.dart';
 export 'package:widgetsoftheweek/screens/S/stream_builder_screen.dart';
 export 'package:widgetsoftheweek/screens/S/semantics_screen.dart';
 export 'package:widgetsoftheweek/screens/S/snackbar_screen.dart';
+export 'package:widgetsoftheweek/screens/S/sliderrangeslidercupertinoslider_screen.dart';
+export 'package:widgetsoftheweek/screens/S/shader_mask_screen.dart';

@@ -23,15 +23,18 @@ class Boton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10),
       child: ElevatedButton(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(titulo,
-                style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold)),
-          ],
+        child: FittedBox(
+          fit: BoxFit.contain,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(titulo,
+                  style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold)),
+            ],
+          ),
         ),
         style: ElevatedButton.styleFrom(
           backgroundColor: ok ? color : Colors.grey,

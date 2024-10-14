@@ -75,11 +75,13 @@ class AScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "AnimatedCrossFade",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AnimatedCrossFade",
+                screen: const AnimatedCrossFadeScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "AnimatedIcon",
                 screen: const AnimatedIconScreen(),

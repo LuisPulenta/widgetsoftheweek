@@ -9,3 +9,4 @@ export 'package:widgetsoftheweek/screens/A/aspect_ratio_screen.dart';
 export 'package:widgetsoftheweek/screens/A/animated_padding_screen.dart';
 export 'package:widgetsoftheweek/screens/A/animated_positioned_screen.dart';
 export 'package:widgetsoftheweek/screens/A/animated_switcher_screen.dart';
+export 'package:widgetsoftheweek/screens/A/animated_cross_fade_screen.dart';

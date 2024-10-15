@@ -3,3 +3,5 @@ export 'package:widgetsoftheweek/screens/BC/clip_r_rect_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/custom_painter_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/constrained_box_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/color_filtered_screen.dart';
+export 'package:widgetsoftheweek/screens/BC/circular_linear_progress_indicator_screen.dart';
+export 'package:widgetsoftheweek/screens/BC/cupertino_activity_indicator_screen.dart';

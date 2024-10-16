@@ -10,3 +10,4 @@ export 'package:widgetsoftheweek/screens/S/snackbar_screen.dart';
 export 'package:widgetsoftheweek/screens/S/sliderrangeslidercupertinoslider_screen.dart';
 export 'package:widgetsoftheweek/screens/S/shader_mask_screen.dart';
 export 'package:widgetsoftheweek/screens/S/selectable_text_screen.dart';
+export 'package:widgetsoftheweek/screens/S/switch_list_tile_screen.dart';

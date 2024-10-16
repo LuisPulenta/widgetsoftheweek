@@ -170,10 +170,11 @@ class SScreen extends StatelessWidget {
                   ok: true),
               Boton(
                   titulo: "SwitchListTile",
-                  screen: Container(),
+                  screen: const SwitchListTileScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
             ],
           ),
         ));

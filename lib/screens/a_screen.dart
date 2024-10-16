@@ -23,11 +23,13 @@ class AScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "AboutDialog",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AboutDialog",
+                screen: const AboutDialogScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "AbsorbPointer",
                 screen: const AbsorbPointerScreen(),

@@ -83,8 +83,8 @@ class SScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                titulo: "SilverAppBar",
-                screen: const SliverAppScreen(),
+                titulo: "SliverAppBar",
+                screen: const SliverAppBarScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
@@ -143,7 +143,7 @@ class SScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "sqflite",
+                  titulo: "Sqflite",
                   screen: Container(),
                   ancho: anchoBoton,
                   alto: altoBoton,

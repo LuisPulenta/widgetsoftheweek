@@ -45,11 +45,13 @@ class BCScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "CheckBoxListTile",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "CheckBoxListTile",
+                screen: const CheckBoxListTileScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Circular & Linear Progress Indicator",
                 screen: const CircularLinearProgressIndicatorScreen(),

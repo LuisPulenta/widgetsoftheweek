@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class SliverAppScreen extends StatelessWidget {
-  const SliverAppScreen({Key? key}) : super(key: key);
+class SliverAppBarScreen extends StatelessWidget {
+  const SliverAppBarScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -53,8 +53,13 @@ class _MyHomeScreen extends StatelessWidget {
           SliverAppBar(
             floating: true,
             pinned: false,
-            title: const Text("SliverAppBar"),
+            title: const Text("SliverAppBar",
+                style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold)),
             expandedHeight: 200,
+            stretch: true,
             flexibleSpace: Image.network(
               "https://www.globalnationalparks.com/es/wp-content/uploads/iguazu-parque-nacional-brasil.jpg",
               fit: BoxFit.cover,

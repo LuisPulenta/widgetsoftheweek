@@ -71,11 +71,13 @@ class GHIScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "IgnorePointer",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "IgnorePointer",
+                screen: const IgnorePointerScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Image",
                 screen: const ImageScreen(),

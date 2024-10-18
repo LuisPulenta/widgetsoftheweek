@@ -6,3 +6,5 @@ export 'package:widgetsoftheweek/screens/BC/color_filtered_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/circular_linear_progress_indicator_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/cupertino_activity_indicator_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/check_box_list_tile_screen.dart';
+export 'package:widgetsoftheweek/screens/BC/clip_oval_screen.dart';
+export 'package:widgetsoftheweek/screens/BC/clip_path_screen.dart';

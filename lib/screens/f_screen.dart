@@ -105,11 +105,13 @@ class FScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "FractionallySizedBox",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "FractionallySizedBox",
+                screen: const FractionallySizedBoxScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "FutureBuilder",
                 screen: const FutureBuilderScreen(),

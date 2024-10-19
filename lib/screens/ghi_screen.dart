@@ -101,11 +101,13 @@ class GHIScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "IndexedStack",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "IndexedStack",
+                screen: const IndexedStackScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "InheritedWidget",
                 screen: const InheritedWidgetScreen(),

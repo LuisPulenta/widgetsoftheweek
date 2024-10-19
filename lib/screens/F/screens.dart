@@ -5,3 +5,4 @@ export 'package:widgetsoftheweek/screens/F/flexible_screen.dart';
 export 'package:widgetsoftheweek/screens/F/fade_transition_screen.dart';
 export 'package:widgetsoftheweek/screens/F/future_builder_screen.dart';
 export 'package:widgetsoftheweek/screens/F/flutter_logo_screen.dart';
+export 'package:widgetsoftheweek/screens/F/fractionally_sized_box_screen.dart';

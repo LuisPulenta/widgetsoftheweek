@@ -90,11 +90,12 @@ class PRScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "ReoderableListView",
-                  screen: Container(),
+                  titulo: "ReorderableListView",
+                  screen: const ReorderableListViewScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "RepaintBoundary",
                   screen: Container(),

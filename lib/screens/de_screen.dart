@@ -30,11 +30,13 @@ class DEScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "DefaultTabController & TabBar",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "DefaultTabController & TabBar",
+                screen: const DefaultTabControllerTabBarScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Device_info",
                 screen: const DeviceInfoScreen(),

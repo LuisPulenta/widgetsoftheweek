@@ -61,11 +61,13 @@ class LMNOScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "ListWheelScrollView",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "ListWheelScrollView",
+                screen: const ListWheelScrollViewScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Location",
                   screen: Container(),

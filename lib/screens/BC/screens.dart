@@ -8,3 +8,4 @@ export 'package:widgetsoftheweek/screens/BC/cupertino_activity_indicator_screen.
 export 'package:widgetsoftheweek/screens/BC/check_box_list_tile_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/clip_oval_screen.dart';
 export 'package:widgetsoftheweek/screens/BC/clip_path_screen.dart';
+export 'package:widgetsoftheweek/screens/BC/builder_screen.dart';

@@ -36,10 +36,11 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "ScrollBar",
-                  screen: Container(),
+                  screen: const ScrollBarScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                 titulo: "SelectableText",
                 screen: const SelectableTextScreen(),

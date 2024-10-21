@@ -111,11 +111,13 @@ class PRScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "RotatedBox",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "RotatedBox",
+                screen: const RotatedBoxScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
             ],
           ),
         ));

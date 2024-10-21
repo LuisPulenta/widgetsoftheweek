@@ -47,7 +47,7 @@ class DEScreen extends StatelessWidget {
               ),
               Boton(
                 titulo: "Dismissible",
-                screen: DismissibleScreen(),
+                screen: const DismissibleScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
@@ -101,11 +101,15 @@ class DEScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "ExpansionPanel",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "ExpansionPanel",
+                screen: const ExpansionPanelScreen(
+                  key: null,
+                ),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
             ],
           ),
         ));

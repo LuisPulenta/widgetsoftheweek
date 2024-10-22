@@ -94,10 +94,11 @@ class LMNOScreen extends StatelessWidget {
                   ok: true),
               Boton(
                   titulo: "MouseRegion",
-                  screen: Container(),
+                  screen: const MouseRegionScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

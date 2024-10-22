@@ -99,11 +99,13 @@ class FScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "font_awesome_flutter",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "FontAwesomeFlutter",
+                screen: const FontAwesomeFlutterScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "FractionallySizedBox",
                 screen: const FractionallySizedBoxScreen(),

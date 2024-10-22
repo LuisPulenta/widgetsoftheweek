@@ -101,11 +101,13 @@ class BCScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Connectivity",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Connectivity",
+                screen: const ConnectivityScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "ConstrainedBox",
                 screen: const ConstrainedBoxScreen(),

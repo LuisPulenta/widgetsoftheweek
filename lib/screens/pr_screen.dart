@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsoftheweek/screens/PR/pageview_screen.dart';
-import 'package:widgetsoftheweek/screens/PR/positioned_screen.dart';
 import 'package:widgetsoftheweek/screens/PR/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
@@ -85,10 +83,11 @@ class PRScreen extends StatelessWidget {
               ),
               Boton(
                   titulo: "RefreshIndicator",
-                  screen: Container(),
+                  screen: RefreshIndicatorScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "ReorderableListView",
                   screen: const ReorderableListViewScreen(),

@@ -70,7 +70,6 @@ class ListWheelScrollViewScreen extends StatelessWidget {
 class _ListItem extends StatelessWidget {
   final Color color;
   const _ListItem({
-    super.key,
     required this.color,
   });
 

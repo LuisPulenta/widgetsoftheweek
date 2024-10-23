@@ -19,7 +19,7 @@ class _AnimatedSwitcherScreenState extends State<AnimatedSwitcherScreen> {
       body: Center(
         child: AnimatedSwitcher(
           duration: const Duration(milliseconds: 1300),
-          child: isTop ? const myWidget1() : const myWidget2(),
+          child: isTop ? const MyWidgetA() : const MyWidgetB(),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -34,8 +34,8 @@ class _AnimatedSwitcherScreenState extends State<AnimatedSwitcherScreen> {
   }
 }
 
-class myWidget1 extends StatelessWidget {
-  const myWidget1({super.key});
+class MyWidgetA extends StatelessWidget {
+  const MyWidgetA({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -47,8 +47,8 @@ class myWidget1 extends StatelessWidget {
   }
 }
 
-class myWidget2 extends StatelessWidget {
-  const myWidget2({super.key});
+class MyWidgetB extends StatelessWidget {
+  const MyWidgetB({super.key});
 
   @override
   Widget build(BuildContext context) {

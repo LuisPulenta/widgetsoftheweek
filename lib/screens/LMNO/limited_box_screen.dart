@@ -19,7 +19,7 @@ class LimitedBoxScreen extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          Container(
+          SizedBox(
             width: 100,
             height: 100,
             child: LimitedBox(

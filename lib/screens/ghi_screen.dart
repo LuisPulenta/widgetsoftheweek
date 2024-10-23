@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsoftheweek/screens/GHI/hero_screen.dart';
 import 'package:widgetsoftheweek/screens/GHI/screens.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 
@@ -53,18 +52,20 @@ class GHIScreen extends StatelessWidget {
               ),
               Boton(
                 titulo: "Hero",
-                screen: HeroScreen(),
+                screen: const HeroModeScreen(),
                 ancho: anchoBoton,
                 alto: altoBoton,
                 color: color,
                 ok: true,
               ),
               Boton(
-                  titulo: "HeroMode",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "HeroMode",
+                screen: const HeroModeScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

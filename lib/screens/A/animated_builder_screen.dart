@@ -53,7 +53,7 @@ class _MyHomeState extends State<_MyHome> with SingleTickerProviderStateMixin {
         body: Center(
           child: AnimatedBuilder(
             animation: controller,
-            child: Rectangulo(),
+            child: const Rectangulo(),
             builder: (BuildContext context, Widget? child) {
               return Transform.scale(
                 scale: scale.value,
@@ -79,6 +79,8 @@ class _MyHomeState extends State<_MyHome> with SingleTickerProviderStateMixin {
 
 //----------------------------------------------------------------------
 class Rectangulo extends StatelessWidget {
+  const Rectangulo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(

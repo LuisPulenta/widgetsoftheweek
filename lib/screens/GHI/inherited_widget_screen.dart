@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:widgetsoftheweek/models/miscolores.dart';
-import 'package:widgetsoftheweek/screens/A/animated_builder_screen.dart';
 
 class InheritedWidgetScreen extends StatelessWidget {
   const InheritedWidgetScreen({Key? key}) : super(key: key);

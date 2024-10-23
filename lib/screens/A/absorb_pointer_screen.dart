@@ -51,7 +51,7 @@ class _MyHomeScreen extends StatelessWidget {
               ),
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.all(10),
+                  margin: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.red),
                   ),

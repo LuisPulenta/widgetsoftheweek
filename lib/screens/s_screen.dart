@@ -151,7 +151,7 @@ class SScreen extends StatelessWidget {
                   color: color),
               Boton(
                   titulo: "Stack",
-                  screen: StackScreen(),
+                  screen: const StackScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
                   color: color,

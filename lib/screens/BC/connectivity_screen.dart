@@ -17,6 +17,7 @@ class _ConnectivityScreenState extends State<ConnectivityScreen> {
     getConnection();
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

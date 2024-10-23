@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsoftheweek/screens/LMNO/opacity_screen.dart';
 import 'package:widgetsoftheweek/screens/LMNO/screen.dart';
 import 'package:widgetsoftheweek/widgets/widgets.dart';
 

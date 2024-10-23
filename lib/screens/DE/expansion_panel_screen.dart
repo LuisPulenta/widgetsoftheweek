@@ -29,10 +29,10 @@ class _ExpansionPanelScreenState extends State<ExpansionPanelScreen> {
 
   Widget _buildPanel() {
     return ExpansionPanelList(
-      animationDuration: Duration(milliseconds: 1000),
+      animationDuration: const Duration(milliseconds: 1000),
       dividerColor: Colors.purple,
       elevation: 1,
-      expandedHeaderPadding: EdgeInsets.all(8),
+      expandedHeaderPadding: const EdgeInsets.all(8),
       expansionCallback: (int index, bool isExpanded) {
         setState(() {
           _books[index].isExpanded = !isExpanded;

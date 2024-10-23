@@ -37,7 +37,7 @@ class ListTileScreen extends StatelessWidget {
             ),
             dense: true,
             onTap: () {
-              print(options[index]);
+              //print(options[index]);
             },
           ),
           separatorBuilder: (_, __) => const Divider(),

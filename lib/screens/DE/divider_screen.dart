@@ -81,7 +81,7 @@ class DividerScreen extends StatelessWidget {
 class _Rectangulo extends StatelessWidget {
   final Color color;
 
-  const _Rectangulo({super.key, required this.color});
+  const _Rectangulo({required this.color});
   @override
   Widget build(BuildContext context) {
     return Padding(

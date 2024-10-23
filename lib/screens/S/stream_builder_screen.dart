@@ -7,13 +7,13 @@ class StreamBuilderScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _MyHomeScreen();
+    return const _MyHomeScreen();
   }
 }
 
 //--------------------------------------------------------------------------
 class _MyHomeScreen extends StatefulWidget {
-  _MyHomeScreen({
+  const _MyHomeScreen({
     Key? key,
   }) : super(key: key);
 

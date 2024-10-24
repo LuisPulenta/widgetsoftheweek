@@ -22,11 +22,13 @@ class GHIScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "GestureDetector",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "GestureDetector",
+                screen: const GestureDetectorScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "get_it",
                   screen: Container(),
@@ -34,11 +36,13 @@ class GHIScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "google_fonts",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "google_fonts",
+                screen: const GoogleFontsScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "GridView",
                   screen: Container(),

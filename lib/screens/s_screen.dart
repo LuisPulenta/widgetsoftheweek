@@ -78,11 +78,13 @@ class SScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "shared_preferences",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "shared_preferences",
+                screen: const SharedPreferencesScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "SliverAppBar",
                 screen: const SliverAppBarScreen(),

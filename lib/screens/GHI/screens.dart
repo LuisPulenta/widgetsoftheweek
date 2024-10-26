@@ -8,3 +8,4 @@ export 'package:widgetsoftheweek/screens/GHI/indexed_stack_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/hero_mode_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/google_fonts_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/gesture_detector_screen.dart';
+export 'package:widgetsoftheweek/screens/GHI/image_filtered_screen.dart';

@@ -42,6 +42,13 @@ class SScreen extends StatelessWidget {
                   color: color,
                   ok: true),
               Boton(
+                  titulo: "SegmentedButton",
+                  screen: const SegmentedButtonScreen(),
+                  ancho: anchoBoton,
+                  alto: altoBoton,
+                  color: color,
+                  ok: true),
+              Boton(
                 titulo: "SelectableText",
                 screen: const SelectableTextScreen(),
                 ancho: anchoBoton,

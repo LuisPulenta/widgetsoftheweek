@@ -30,11 +30,13 @@ class TUVWScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "TabPageSelector",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "TabPageSelector",
+                screen: TabPageSelectorScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Tema",
                   screen: Container(),

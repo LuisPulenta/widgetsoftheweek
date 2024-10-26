@@ -16,16 +16,15 @@ class ImageFilterScreen extends StatelessWidget {
         children: [
           Center(
             child: Image.network(
-                "https://cdn.elitebabes.com/content/2208137/0001-09_1200.jpg"),
+                "https://i.pinimg.com/736x/01/df/de/01dfde419767da43848f510ee951d42e.jpg"),
           ),
           Positioned(
-            top: 430,
-            bottom: 220,
-            left: 280,
+            top: 200,
+            left: 140,
             child: ClipRect(
               child: SizedBox(
-                width: 100,
-                height: 100,
+                width: 150,
+                height: 150,
                 child: BackdropFilter(
                   filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
                   child: Container(),

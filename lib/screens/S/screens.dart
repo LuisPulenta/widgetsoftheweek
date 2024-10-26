@@ -13,3 +13,4 @@ export 'package:widgetsoftheweek/screens/S/stream_builder_screen.dart';
 export 'package:widgetsoftheweek/screens/S/switch_list_tile_screen.dart';
 export 'package:widgetsoftheweek/screens/S/scroll_bar_screen.dart';
 export 'package:widgetsoftheweek/screens/S/shared_preferences_screen.dart';
+export 'package:widgetsoftheweek/screens/S/segmented_button_screen.dart';

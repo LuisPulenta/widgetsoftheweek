@@ -100,11 +100,13 @@ class GHIScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "ImageFiltered",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "ImageFiltered",
+                screen: const ImageFilteredScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "IndexedStack",
                 screen: const IndexedStackScreen(),

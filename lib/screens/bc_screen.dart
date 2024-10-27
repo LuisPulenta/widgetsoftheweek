@@ -125,11 +125,13 @@ class BCScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "CupertinoActionSheets",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "CupertinoActionSheet",
+                screen: const CupertinoActionsSheetScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "CupertinoActivityIndicator",
                 screen: const CupertinoActivityIndicatorScreen(),

@@ -68,11 +68,13 @@ class DEScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "DraggableScollableSheet",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "DraggableScrollableSheet",
+                screen: DraggableScrollableSheetsScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Drawer",
                 screen: DrawerScreen(),

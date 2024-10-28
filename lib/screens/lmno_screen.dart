@@ -120,11 +120,13 @@ class LMNOScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "NotificationListener",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "NotificationListener",
+                screen: const NotificationListenerScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

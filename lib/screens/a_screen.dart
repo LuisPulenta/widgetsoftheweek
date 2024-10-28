@@ -135,11 +135,13 @@ class AScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "AnimatedWidget",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "AnimatedWidget",
+                screen: const AnimatedWidgetScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "Animations",
                   screen: Container(),

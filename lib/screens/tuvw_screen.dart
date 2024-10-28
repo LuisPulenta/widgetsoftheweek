@@ -89,11 +89,13 @@ class TUVWScreen extends StatelessWidget {
                 height: 10,
               ),
               Boton(
-                  titulo: "url_launcher",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "url_launcher",
+                screen: const UrlLauncherScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

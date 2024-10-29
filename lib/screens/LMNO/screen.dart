@@ -9,3 +9,4 @@ export 'package:widgetsoftheweek/screens/LMNO/mouse_region_screen.dart';
 export 'package:widgetsoftheweek/screens/LMNO/list_generate_screen.dart';
 export 'package:widgetsoftheweek/screens/LMNO/linear_gradient_screen.dart';
 export 'package:widgetsoftheweek/screens/LMNO/notification_listener_screen.dart';
+export 'package:widgetsoftheweek/screens/LMNO/location_screen.dart';

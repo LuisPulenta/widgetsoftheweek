@@ -78,11 +78,13 @@ class LMNOScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Location",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Location",
+                screen: const LocationScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               const Divider(
                 color: Colors.white,
                 thickness: 4,

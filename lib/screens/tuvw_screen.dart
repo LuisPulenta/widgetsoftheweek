@@ -38,11 +38,13 @@ class TUVWScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "Tema",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Tema",
+                screen: const TemaScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "TextStyle",
                 screen: const TextStyleScreen(),

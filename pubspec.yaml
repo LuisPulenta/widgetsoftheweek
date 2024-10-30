@@ -44,6 +44,7 @@ dependencies:
   google_fonts: ^4.0.4
   url_launcher: ^6.0.12
   location: ^4.0.0
+  flutter_slidable: ^1.2.0 
 
 dev_dependencies:
   flutter_test:

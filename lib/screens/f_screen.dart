@@ -93,6 +93,14 @@ class FScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
+                titulo: "FlutterSlidable",
+                screen: const FlutterSlidableScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
+              Boton(
                   titulo: "FocusableActionDetector",
                   screen: Container(),
                   ancho: anchoBoton,

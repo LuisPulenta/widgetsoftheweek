@@ -7,3 +7,4 @@ export 'package:widgetsoftheweek/screens/F/future_builder_screen.dart';
 export 'package:widgetsoftheweek/screens/F/flutter_logo_screen.dart';
 export 'package:widgetsoftheweek/screens/F/fractionally_sized_box_screen.dart';
 export 'package:widgetsoftheweek/screens/F/font_awesome_flutter_screen.dart';
+export 'package:widgetsoftheweek/screens/F/flutter_slidable_screen.dart';

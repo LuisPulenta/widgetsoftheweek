@@ -6,3 +6,4 @@ export 'package:widgetsoftheweek/screens/PR/reorderable_list_view_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/rotated_box_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/refresh_indicator_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/positioned_screen.dart';
+export 'package:widgetsoftheweek/screens/PR/physical_model_screen.dart';

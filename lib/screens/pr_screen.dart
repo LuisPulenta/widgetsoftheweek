@@ -56,11 +56,13 @@ class PRScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "PhysicalModel",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "PhysicalModel",
+                screen: const PhysicalModelScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Placeholder",
                 screen: const PlaceholderScreen(),

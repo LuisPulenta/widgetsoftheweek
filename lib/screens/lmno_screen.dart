@@ -104,6 +104,13 @@ class LMNOScreen extends StatelessWidget {
                   color: color,
                   ok: true),
               Boton(
+                  titulo: "MediaQueryPropertyOf",
+                  screen: const MediaQueryPropertyOfScreen(),
+                  ancho: anchoBoton,
+                  alto: altoBoton,
+                  color: color,
+                  ok: true),
+              Boton(
                   titulo: "MouseRegion",
                   screen: const MouseRegionScreen(),
                   ancho: anchoBoton,
@@ -114,6 +121,14 @@ class LMNOScreen extends StatelessWidget {
                 color: Colors.white,
                 thickness: 4,
                 height: 10,
+              ),
+              Boton(
+                titulo: "NavigationBar",
+                screen: const NavigationBarScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
               ),
               Boton(
                   titulo: "NavigationRail",

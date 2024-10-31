@@ -11,3 +11,4 @@ export 'package:widgetsoftheweek/screens/GHI/gesture_detector_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/image_filtered_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/grid_view_screen.dart';
 export 'package:widgetsoftheweek/screens/GHI/interactive_viewer_screen.dart';
+export 'package:widgetsoftheweek/screens/GHI/gap_screen.dart';

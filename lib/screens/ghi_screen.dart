@@ -22,6 +22,14 @@ class GHIScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
+                titulo: "Gap",
+                screen: const GapScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
+              Boton(
                 titulo: "GestureDetector",
                 screen: const GestureDetectorScreen(),
                 ancho: anchoBoton,

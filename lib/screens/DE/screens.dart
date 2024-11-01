@@ -7,3 +7,4 @@ export 'package:widgetsoftheweek/screens/DE/device_info_screen.dart';
 export 'package:widgetsoftheweek/screens/DE/default_tab_controller_tab_bar_screen.dart';
 export 'package:widgetsoftheweek/screens/DE/expansion_panel_screen.dart';
 export 'package:widgetsoftheweek/screens/DE/draggable_scrollable_sheets_screen.dart';
+export 'package:widgetsoftheweek/screens/DE/drop_down_button_screen.dart';

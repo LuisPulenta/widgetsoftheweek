@@ -30,10 +30,11 @@ class SScreen extends StatelessWidget {
                   ok: true),
               Boton(
                   titulo: "ScaffoldMessenger",
-                  screen: Container(),
+                  screen: const ScaffoldMessengerScreen(),
                   ancho: anchoBoton,
                   alto: altoBoton,
-                  color: color),
+                  color: color,
+                  ok: true),
               Boton(
                   titulo: "ScrollBar",
                   screen: const ScrollBarScreen(),

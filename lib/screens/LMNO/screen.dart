@@ -12,3 +12,4 @@ export 'package:widgetsoftheweek/screens/LMNO/notification_listener_screen.dart'
 export 'package:widgetsoftheweek/screens/LMNO/location_screen.dart';
 export 'package:widgetsoftheweek/screens/LMNO/navigation_bar_screen.dart';
 export 'package:widgetsoftheweek/screens/LMNO/media_query_property_of_screen.dart';
+export 'package:widgetsoftheweek/screens/LMNO/navigation_rail_screen.dart';

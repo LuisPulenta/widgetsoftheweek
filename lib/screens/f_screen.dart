@@ -73,11 +73,13 @@ class FScreen extends StatelessWidget {
                   alto: altoBoton,
                   color: color),
               Boton(
-                  titulo: "flutter_rating_bar",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "flutter_rating_bar",
+                screen: const FlutterRatingBarScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                   titulo: "flutter_slidable",
                   screen: Container(),

@@ -22,11 +22,13 @@ class BCScreen extends StatelessWidget {
           child: Column(
             children: [
               Boton(
-                  titulo: "Baseline",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "Baseline",
+                screen: const BaselineScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "Builder",
                 screen: const BuilderScreen(),

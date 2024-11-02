@@ -131,11 +131,13 @@ class LMNOScreen extends StatelessWidget {
                 ok: true,
               ),
               Boton(
-                  titulo: "NavigationRail",
-                  screen: Container(),
-                  ancho: anchoBoton,
-                  alto: altoBoton,
-                  color: color),
+                titulo: "NavigationRail",
+                screen: const NavigationRailScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               Boton(
                 titulo: "NotificationListener",
                 screen: const NotificationListenerScreen(),

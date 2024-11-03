@@ -7,3 +7,5 @@ export 'package:widgetsoftheweek/screens/PR/rotated_box_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/refresh_indicator_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/positioned_screen.dart';
 export 'package:widgetsoftheweek/screens/PR/physical_model_screen.dart';
+export 'package:widgetsoftheweek/screens/PR/path_provider_screen.dart';
+export 'package:widgetsoftheweek/screens/PR/raw_magnifier_screen.dart';

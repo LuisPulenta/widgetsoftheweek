@@ -91,6 +91,14 @@ class DEScreen extends StatelessWidget {
                 color: color,
                 ok: true,
               ),
+              Boton(
+                titulo: "DropDownMenu",
+                screen: const DropDownMenuScreen(),
+                ancho: anchoBoton,
+                alto: altoBoton,
+                color: color,
+                ok: true,
+              ),
               const Divider(
                 color: Colors.white,
                 thickness: 4,
